@@ -1,8 +1,11 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.8'
 gem 'bootstrap-sass'
+
+# Use ActiveModel has_secure_password
+gem 'bcrypt-ruby', '~> 3.1.2', :require => "bcrypt"
 
 group :development, :test do
   gem 'sqlite3'
